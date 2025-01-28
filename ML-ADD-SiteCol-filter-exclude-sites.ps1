@@ -1,6 +1,8 @@
 Add-PSSnapin Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue
 
 # User Account to add as Site Collection Admin
+#UserAccount="i:05.t|contoso (adfs) - email|xxs011"
+#$UserAccount=contoso\g-xxs-contoso-support
 $UserAccount = "c:0+.t|contoso (adfs) - email|s-1-5-21-1888728768-5163114-3101231337-164597"
 
 # Path to the filter file (each filter pattern on a new line)
